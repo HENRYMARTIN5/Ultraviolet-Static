@@ -13,6 +13,17 @@
     font-family: Roboto;
 }
 
+.noshow {
+  display:none;
+}
+
+.floatingContent {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: 99999999999;
+}
+
 body {
     margin: 0;
     background: #111;
